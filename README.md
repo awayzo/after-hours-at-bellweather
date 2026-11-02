@@ -4,13 +4,17 @@
 
 ## Download the Windows game
 
-Open **[Releases](https://github.com/awayzo/after-hours-at-bellweather/releases)** and download **Bellweather-Windows-v0.2.0.zip** from the release's **Assets** list. The automatically generated “Source code” downloads contain repository documents, not the game.
+Download the corrected Windows v0.2.1 game:
 
-1. Right-click the downloaded ZIP and select **Extract All**.
-2. Open the extracted **Bellweather-Windows-v0.2.0** folder.
-3. Double-click **Bellweather.exe**. Keep the other files and folders beside it.
+- **[Complete EXE download](https://github.com/awayzo/after-hours-at-bellweather/releases/download/v0.2.1/Bellweather-Windows-v0.2.1.exe)** — run it, let it prepare the game files, and choose Play game. The complete game is embedded; no additional download is needed.
+- **[ZIP alternative](https://github.com/awayzo/after-hours-at-bellweather/releases/download/v0.2.1/Bellweather-Windows-v0.2.1.zip)** — extract the entire ZIP, open its folder, and double-click Bellweather.exe.
+- **[Release notes and checksums](https://github.com/awayzo/after-hours-at-bellweather/releases/tag/v0.2.1)**
 
-SMILE GAME BUILDER and Steam are not required to launch this portable package. Use a writable folder so the game can save progress. This release is for Windows; a browser version is not included.
+SMILE GAME BUILDER, Steam, Visual Studio, an SDK, csc.exe, and .NET Framework 3.5 are not required. The game uses Windows' built-in .NET Framework 4.x runtime. This is a Windows desktop release; a browser version is not included. GitHub's Source code downloads are not the game.
+
+**OpenGL startup error:** use Play with software graphics in the complete EXE launcher, or Bellweather Software Graphics.exe in the ZIP folder. The included Mesa renderer installs no driver and changes no system graphics settings. It uses the CPU and may run more slowly, particularly in virtual machines.
+
+The complete EXE stores its game files in %LOCALAPPDATA%\Bellweather\Windows-v0.2.1. Keep the EXE to launch again. ZIP users keep all extracted files together in a writable folder. When updating, back up your old folder and copy only savedata into the new game folder; do not copy old scripts or DLLs over this repair.
 
 ## The story
 
@@ -45,14 +49,17 @@ The Canvas portal is planned separately. The current code is an unsigned progres
 
 ## Version and testing
 
-**v0.2.0 is the verified installed course-credit build**, packaged as a portable Windows game. The underlying version passed native chapter/route, conversation, audio, score, and save/load checks. The packaged Bellweather.exe was also launched from its own folder and visibly reached the opening story.
+**v0.2.1 repairs the v0.2.0 startup dependency and title mouse selection.** Scripts are compiled during packaging, so the game no longer looks for a C# compiler on the player's computer. Options opens settings and Begin investigation starts the story; quick background clicks and disabled Continue no longer confirm the default action.
 
-**A separate Windows computer without GAME BUILDER has not yet been tested.** This download is marked as a pilot prerelease. Please report launch problems with the Windows version and an error screenshot.
+Native checks covered 30/50 and 50/50 course points, receipt export, and save/load. The shipped scoring DLL passed valid-state receipt round-trips and score-cap checks; the existing instructor reviewer remains compatible. The complete EXE extracted its payload and launched the game. Bundled software graphics reached the 3D opening scene on this Windows host.
 
-The next update is still in testing. Its rival inn, survival consequences, new repair task, detailed earned-point ledger, textured HUD, and animated per-award receipts are **not included in v0.2.0**. That update will receive its own release after verification.
+These checks ran on the development Windows computer. A second clean Windows machine and the reporter's virtual machine have not yet been tested with the repair. The release remains a pilot prerelease. Please report the game version, Windows version, graphics mode, last action, and an error screenshot. Full verification details are attached to the release.
+
+The next update is still in testing. Its rival inn, survival consequences, new repair task, detailed earned-point ledger, textured HUD, and animated per-award receipts are **not included in v0.2.1**. That update will receive its own release after verification.
 
 ## Credits and rights
 
-Developed by **Dr. Malik Stalbert**
+Developed by **Dr. Malik Stalbert**, using SMILE GAME BUILDER. Engine and third-party asset rights remain with their respective owners. The download is a playable game; it does not grant permission to extract or reuse its engine, music, artwork, or models in other projects.
 
 Do not post personal save files or receipt codes publicly when reporting bugs.
+
