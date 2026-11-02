@@ -47,12 +47,12 @@ The Canvas portal is planned separately. The current code is an unsigned progres
 
 **v0.2.0 is the verified installed course-credit build**, packaged as a portable Windows game. The underlying version passed native chapter/route, conversation, audio, score, and save/load checks. The packaged Bellweather.exe was also launched from its own folder and visibly reached the opening story.
 
-**A separate Windows computer without SMILE GAME BUILDER has not yet been tested.** This download is marked as a pilot prerelease. Please report launch problems with the Windows version and an error screenshot.
+**A separate Windows computer without GAME BUILDER has not yet been tested.** This download is marked as a pilot prerelease. Please report launch problems with the Windows version and an error screenshot.
 
 The next update is still in testing. Its rival inn, survival consequences, new repair task, detailed earned-point ledger, textured HUD, and animated per-award receipts are **not included in v0.2.0**. That update will receive its own release after verification.
 
 ## Credits and rights
 
-Developed by **Dr. Malik Stalbert**, using SMILE GAME BUILDER. Engine and third-party asset rights remain with their respective owners. The download is a playable game; it does not grant permission to extract or reuse its engine, music, artwork, or models in other projects.
+Developed by **Dr. Malik Stalbert**
 
 Do not post personal save files or receipt codes publicly when reporting bugs.
