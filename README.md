@@ -8,9 +8,9 @@
 
 Run it, let it prepare the included game files, and choose **Play game**. Keep the EXE to launch again. You do not need Git, a GitHub account, SMILE GAME BUILDER, Steam, a compiler, or an SDK.
 
-[Player release notes](https://github.com/awayzo/after-hours-at-bellweather/releases/tag/v0.3.0)
+[ZIP alternative](https://github.com/awayzo/after-hours-at-bellweather/releases/download/v0.3.0/Bellweather-Windows-v0.3.0.zip) · [Player release notes](https://github.com/awayzo/after-hours-at-bellweather/releases/tag/v0.3.0)
 
-GitHub's automatic Source code downloads contain this repository's player instructions; choose the complete Windows EXE above to play.
+For the ZIP, choose Extract All, open its folder, and run Bellweather.exe. Keep the included files together. GitHub's automatic Source code downloads contain this repository's player instructions; choose the EXE or game ZIP above to play.
 
 If an OpenGL error appears, choose **Play with software graphics** in the EXE launcher. ZIP users can run Bellweather Software Graphics.exe. It needs no separate driver installation, but CPU rendering may be slower.
 
@@ -44,7 +44,7 @@ Submit the complete receipt and code in your course Canvas extra-credit assignme
 
 ## Updates and support
 
-Back up your old game folder before updating. Copy only savedata into the new game folder. The complete EXE stores its files in %LOCALAPPDATA%\Bellweather\Windows-v0.3.0. Keep previous game folders and receipts. Start a new case for the updated adventure.
+Back up your old game folder before updating. The complete EXE stores its files in %LOCALAPPDATA%\Bellweather\Windows-v0.3.0. Keep previous game folders and receipts. Start a new case for the updated adventure.
 
 For a bug report, include the game version, Windows version, graphics mode, location, last action, and an error screenshot. Do not post personal saves or full receipt codes publicly.
 
